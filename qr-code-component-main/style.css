@@ -1,23 +1,45 @@
-hero {
+body {
     font-family: 'Outfit', sans-serif;
-    text-align: center;
-    font-weight: 700;
-}
-
-.ptext {
-    font-size: 15px;
-    font-weight: 400;
-}
-
-img {
-    display:block;
-    margin: auto;
-    width: 15%;
-}
-
-body{
     background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+  }
+  
+.qr-code {
+    width: 150px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+  }
+  
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
 }
+
 
 
 .attribution { font-size: 11px; text-align: center; }
