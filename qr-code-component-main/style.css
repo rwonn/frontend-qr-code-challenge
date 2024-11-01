@@ -1,11 +1,8 @@
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+img {
+    display:block;
+    margin: auto;
+    width: 25;
 }
 
-.content{
-	margin-left: 20px;
-	padding: 20px;
-	flex-grow: 1;
-}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
